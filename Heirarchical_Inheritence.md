@@ -31,6 +31,46 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
+~~~~
+class mec:
+    def _init_(self,a,b,c,d,e,f,g,h,i,j):
+        self.a=a
+        self.b=b
+        self.c=c
+        self.d=d
+        self.e=e
+        self.f=f
+        self.g=g
+        self.h=h
+        self.i=i
+        self.j=j
+        print("Employee Object")
+        print(f"Id:  {a}")
+        print(f"Name:  {b}")
+        print(f"Gender:  {c}")
+        print(f"Company:  {d}")
+        print(f"Department:  {e}")
+        print()
+        print("Patient Object")
+        print(f"Id:  {f}")
+        print(f"Name:  {g}")
+        print(f"Gender:  {h}")
+        print(f"Hospital:  {i}")
+        print(f"Department:  {j}")
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+f=input()
+g=input()
+h=input()
+i=input()
+j=input()
+m=mec(a,b,c,d,e,f,g,h,i,j)
+~~~~
 ## Sample Output
+<img width="592" height="456" alt="image" src="https://github.com/user-attachments/assets/720aa9a3-cd13-4eef-ada8-7256ba84efd6" />
 
+## Result
+Thus the python program has been successfully executed.
